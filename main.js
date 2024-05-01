@@ -80,7 +80,10 @@ const carSchema = new mongoose.Schema({
   year: Number,
   mileage: Number,
   MPG: Number,
-  Price:Number
+  Price:Number,
+  Seats:Number,
+  Engine:String,
+  PreviousOwners:Number
 
   
 });
